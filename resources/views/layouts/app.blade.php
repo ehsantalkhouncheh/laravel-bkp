@@ -45,7 +45,6 @@
             </main>
             <x-notification />
         </div>
-
         @stack('modals')
         @livewireScripts
         <x-laravel-blade-sortable::scripts/>
